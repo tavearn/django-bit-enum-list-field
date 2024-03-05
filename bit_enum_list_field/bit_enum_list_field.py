@@ -4,9 +4,9 @@ from typing import Type, List, Union
 
 from django.db.models import BigIntegerField
 
-from lib.lookups.bit_enum_list_all_lookup import BitEnumListAllLookup
-from lib.lookups.bit_enum_list_any_lookup import BitEnumListAnyLookup
-from lib.lookups.bit_enum_list_none_lookup import BitEnumListNoneLookup
+from bit_enum_list_field.lookups.bit_enum_list_all_lookup import BitEnumListAllLookup
+from bit_enum_list_field.lookups.bit_enum_list_any_lookup import BitEnumListAnyLookup
+from bit_enum_list_field.lookups.bit_enum_list_none_lookup import BitEnumListNoneLookup
 
 
 class BitEnumListField(BigIntegerField):

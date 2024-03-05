@@ -2,7 +2,7 @@ from django.test import TransactionTestCase
 
 from events.enums import Weekdays
 from events.models import Event
-from lib.bit_enum_list_field import BitEnumListField
+from bit_enum_list_field.bit_enum_list_field import BitEnumListField
 
 
 class TestDbQuery(TransactionTestCase):
