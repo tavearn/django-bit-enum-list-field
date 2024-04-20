@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "django-bit-enum-list-field"
-version = "0.1.0"
+version = "0.1.1"
 description = "A field for Django models to store lists of enums as integers"
 authors = ["Emanuele Manfredini <emanuele.manfredini.1992@gmail.com>"]
 license = "GPLv3"
