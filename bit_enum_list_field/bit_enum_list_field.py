@@ -12,6 +12,8 @@ from bit_enum_list_field.lookups.bit_enum_list_none_lookup import BitEnumListNon
 class BitEnumListField(BigIntegerField):
     def __init__(self, enum: Type[Enum], *args, **kwargs):
         self.enum = enum
+        if "default" not in kwargs:
+            kwargs["default"] = []
         super().__init__(*args, **kwargs)
 
     def deconstruct(self):
